@@ -3,6 +3,16 @@
 
 A simple discord python bot!
 
-# *Updates*
+# *Commands*
 
-Updates coming soon!
+- *ban command*
+
+- *kick command*
+
+- *say command*
+
+# *Features*
+
+- *welcome message*
+
+- *auto reaction*
