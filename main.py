@@ -27,7 +27,7 @@ async def ban_command(ctx, member: discord.Member = None, reason=None):
         reason = "Gebannt"
     await ctx.guild.ban(member, reason=reason)
     embed = discord.Embed(title='<a:achtung:759389989657772042> User verbannt!',
-                          description='**{0}** wurde vom **junghema.de** Server verbannt.'.format(str(member)))
+                          description='**{0}** wurde vom Server verbannt.'.format(str(member)))
     await ctx.channel.send(embed=embed)
 
 
